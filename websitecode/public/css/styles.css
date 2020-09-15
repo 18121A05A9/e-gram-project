@@ -1,0 +1,388 @@
+body{
+	overflow-x: hidden;
+	font-size: 16px;
+	font-family: 'Lora', serif;
+}
+#nav2{
+	padding-bottom: 0px;
+}
+.goog-te-menu-frame {
+	max-width:10% !important; 
+	}
+#google_translate_element{
+	text-align: right;
+}
+.goog-te-gadget-simple {
+	font-size: 5pt;
+}
+#trans-cont{
+	font-size: 1.2vw;
+	font-weight: bold;
+	color: #116466;
+}
+#visitors{
+	text-align: center;
+	color: #116466;
+	font-size: 1.2vw;
+	font-weight: bold;
+
+}
+#visit-info img{
+	
+	font-size: 1.7vw;
+	width: 20%;
+	height: 50%;
+}
+
+.carousel-caption{
+	color: #4CAF50;
+	font-weight: bold;
+	font-size: 1.8vw;
+}
+#nav-top{
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #116466;
+	padding: 10px;
+}
+#img1,#img2{
+	border-radius: 50%;
+} 
+
+#nav-top section div p{
+	background-color: #e8f9fd;
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 10px;
+	font-family: 'Gentium Basic', serif;
+	font-size: 1.8vw;
+	color: #0b0e16;
+	font-weight: bold;
+}
+#nav-list{
+	margin: 0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+.navbar {
+  width: 100%;
+  background-color: #2c3531;
+  height: auto;
+  min-height: 0px;
+}
+ .nav-btn {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5vw;
+  width: 11.1111%; /* Four links of equal widths */
+  text-align: center;
+}
+.nav-village{
+	width:16.66%;
+}
+.nav-btn:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+.nav-btn.active {
+  background-color: #116466;
+}
+#myInput1,#myInput2,#myInput3,
+#myInput4,#myInput5,#myInput6{
+	height: 0.5px;
+	margin-bottom: 0px;
+	background-color: #F5DEB3;
+}
+.dropdown{
+  position: relative;
+}
+.dropdown-menu {
+height: 200px;
+overflow: auto;
+position: absolute;
+font-size: 1.3vw;
+margin-top: 50px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+ 
+	#effect{
+		margin-bottom: 30px;
+	}
+	#part1,#part3{
+		height: 300px;
+		background-color: #116466;
+	}
+	#part2{
+		
+		height: 300px;
+		background-color: #d1d8e2;
+		border-radius: 25px;
+		font-size: 1.3vw;
+		overflow: auto;
+	}
+	#part2 div span{
+		color: #ff3b3f;
+	}
+	#notice{
+		background-color: #fff;
+		padding: 5px;
+		margin-top: 20px;
+		color: #116466;
+		font-weight: bold;
+		font-size: 1.8vw;
+	}
+	#notice-info{
+		margin-top: 20px;
+		font-size: 1.4vw;
+		overflow: auto;
+		background-color: #fff;
+		border-radius: 5%;
+	}
+
+	#parts{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	#gramsev>div,#sarpanch>div,#krushisev>div,#zp>div{
+		background-color: #fff;
+		padding: 1px;
+		margin-top: 10px;
+		color: #000;
+		font-weight: bold;
+		border-radius: 5px;
+	}
+	#gramsev img,#sarpanch img,#krushisev img,#zp img{
+		border-radius: 10%;
+	}
+	#gs,#sp{
+		margin-bottom: 10px;
+	}
+	footer{
+		
+		height: 40px;
+		background-color: #555;
+		margin-top: 30px;
+	}
+
+	#new{
+		background-color: #4ABDAC;
+		color: #000;
+	}
+	h2{
+		color:#fc4a1a;
+	}
+	#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 13px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 4px;
+  height: 40px;
+  font-size: 26px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+#about-content{
+	
+	display: none;
+	
+}
+#about-info{
+	background-color: #116466;
+	padding:30px;
+}
+#abt-ttl,#map-ttl{
+color:#fff;
+font-size: 2vw;
+margin-bottom: 20px;
+}
+#map-ttl{
+	color: #116466;
+	font-weight: bold;
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+	padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+	border-radius: 25%;
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+iframe{
+	border-radius: 10%;
+}
+#about-img{
+	margin-top: 30px;
+	background-color:#116466;
+	text-align: center;
+	padding: 20px;
+}
+#help-content{
+	display: none;
+	padding: 20px;
+	background-color: #116466;
+
+}
+#complain-content{
+	background-color: #fff;
+	border-radius: 5%;
+}
+#help-ttl,#comp-ttl{
+	font-weight: 600;
+	font-size: 1.3em;
+
+}
+#help-ttl{
+	margin-bottom: 20px;
+}
+form{
+	font-size: 1.8vw;
+	height: auto;
+}
+#contact-con{
+	font-size:1.8vw;
+}
+#contact-det{
+	color: #fff;
+}
+input[type=text],textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #f1f1f1;
+  }
+  
+  input[type=text]:focus,textarea:focus {
+	background-color: #ddd;
+	outline: none;
+
+  }
+  #complaint-sub {
+	background-color: #116466;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	margin-left: 37.5%;
+	opacity: 0.8;
+  }
+  
+  #complaint-sub:hover {
+	opacity:1;
+  }
+
+
+  #villageabout_content,#villagegram_content,#villagekrushi_content,#villageschool_content,#villagehelp_content{
+	  display: none;
+  }
+  #villagehelp_content{
+	  background-color: #116466;
+	  padding: 20px;
+  }
+  hr{
+	  width: 100%;
+	  color: #555;
+	  opacity: 2;
+	  height: 1px;
+	  background-color: #555;
+  }
+  #title{
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 10px;
+	font-family: 'Gentium Basic', serif;
+	font-size: 1.8vw;
+	color: #0b0e16;
+	font-weight: bold;
+  }
+  #title2{
+	font-family: 'Gentium Basic', serif;
+	font-size: 1.6vw;
+	color: #0b0e16;
+	font-weight: bold;
+	margin-bottom: 10px;
+  }
+  #newli>li{
+	  list-style: square;
+	  font-size: 1.5vw;
+  }
+  #about-info{
+	  font-size: 1.8vw;
+	  color: #fff;
+	  font-weight: 200;
+  }
+  #abt-ttl,#help-ttl{
+	  background-color: #fff;
+	  color: #116466;
+	  opacity: 2;
+	  font-weight: bold;
+	  padding: 10px;
+	  border-radius: 7%;
+  }
+@media(max-width:767px){
+#about{
+	height: 100px;
+	margin-bottom: 40px;
+}
+.dropdown-menu {
+	height: 130px;
+}
+#visit-info img{
+	width: 30%;
+}
+#contact-det{
+	margin-bottom: 40px;
+}
+#part1,#part2,#part3{
+	height: 200px;
+}
+#home-btn,#help-btn,#about-btn{
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+#nav-top section div p{
+	font-size: 3vw;
+}
+#title{
+	font-size: 2.8vw;
+}
+#title2,#newli li,#about-info{
+	font-size: 2.2vw;
+}
+}
+@media(min-width:767px) and (max-width:991px){
+
+}
+@media(min-width:992px) and (max-width:1199px){
+	
+}
